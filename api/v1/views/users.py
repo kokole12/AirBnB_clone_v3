@@ -40,11 +40,11 @@ def delte_user(user_id):
 def create_user():
     """ creating a new user"""
     if not request.get_json():
-        return make_response(jsonify({"error": "Not a JSON"}))
+        return make_response(jsonify({"error": "Not a JSON"}), 400)
     if 'email' not in request.get_json():
-        return make_response(jsonify({"error": "Missing email"}))
+        return make_response(jsonify({"error": "Missing email"}), 400)
     if 'password' not in request.get_json():
-        return make_response(jsonify({"error": "Missing password"}))
+        return make_response(jsonify({"error": "Missing password"}), 400)
     user_oject = request.get_json()
     new_user = User(**user_oject)
     new_user.save()
