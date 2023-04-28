@@ -30,12 +30,11 @@ def get_user(user_id):
 def delte_user(user_id):
     """Deleting user from the database"""
     user = storage(User, user_id)
-    if user is not None:
-        user.delete()
-        storage.save()
-        return jsonify({})
-    else:
+    if user is None:
         abort(404)
+    user.delete()
+    storage.save()
+    return jsonify({})
 
 
 @app_views.route('/users', methods=['POST'], strict_slashes=False)
