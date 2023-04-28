@@ -49,7 +49,7 @@ def create_user():
     user_oject = request.get_json()
     new_user = User(**user_oject)
     new_user.save()
-    return jsonify(new_user.to_dict())
+    return jsonify(new_user.to_dict()), 201
 
 
 @app_views.route('/users/<user_id>', methods=['PUT'], strict_slashes=False)
