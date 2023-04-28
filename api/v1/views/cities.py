@@ -9,7 +9,8 @@ from models.state import State
 from models import storage
 
 
-@app_views.route('/states/<state_id>/cities', methods=['GET'], strict_slashes=False)
+@app_views.route('/states/<state_id>/cities', methods=['GET'],
+                 strict_slashes=False)
 def get_cities(state_id):
     state = storage.get(State, state_id)
     if state is None:
@@ -19,7 +20,8 @@ def get_cities(state_id):
         return jsonify(cities_list)
 
 
-@app_views.route('/cities/<city_id>', methods=['GET'], strict_slashes=False)
+@app_views.route('/cities/<city_id>', methods=['GET'],
+                 strict_slashes=False)
 def get_city(city_id):
     city = storage.get(City, city_id)
     if city is None:
@@ -28,7 +30,8 @@ def get_city(city_id):
         return jsonify(city)
 
 
-@app_views.route('/cities/<city_id>', methods=['DELETE'], strict_slashes=False)
+@app_views.route('/cities/<city_id>', methods=['DELETE'],
+                 strict_slashes=False)
 def delete_city(city_id):
     city = storage.get(City, city_id)
     if city is not None:
@@ -39,7 +42,8 @@ def delete_city(city_id):
         abort(404)
 
 
-@app_views.route('/states/<state_id>/cities', methods=["POST"], strict_slashes=False)
+@app_views.route('/states/<state_id>/cities', methods=["POST"],
+                 strict_slashes=False)
 def create_city(state_id):
     state = storage.get(State, state_id)
     if state is not None:
