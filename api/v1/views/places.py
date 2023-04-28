@@ -5,7 +5,7 @@ operations for places
 """
 
 
-from flask import Flask, jsonify, abort, make_response, request
+from flask import jsonify, abort, make_response, request
 from models import storage
 from models.place import Place
 from models.city import City
