@@ -74,7 +74,7 @@ class FileStorage:
         if cls in classes.values() and id and type(id) == str:
             d_obj = self.all(cls)
             for k, v in d_obj.items():
-                if k.splt(".")[1] == id:
+                if k.split(".")[1] == id:
                     return v
         else:
             return None
