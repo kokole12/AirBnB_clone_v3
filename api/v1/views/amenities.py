@@ -14,3 +14,7 @@ def get_amenities():
     amenities = storage.all(Amenity).values()
     amenities_dict = [amenities.to_dict]
     return jsonify(amenities_dict)
+
+""" TO Do
+Add the get by id, post, delete and put methods
+"""
