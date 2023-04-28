@@ -49,6 +49,7 @@ def create_city(state_id):
             return make_response(jsonify)({"error": "Missing name"}, 400)
         city_object = request.get_json()
         new_city = City(**city_object)
+        new_city.save()
         return jsonify(new_city.to_dict()), 201
     else:
         abort(404)
