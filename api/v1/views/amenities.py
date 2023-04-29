@@ -56,10 +56,10 @@ def create_amenity():
 @app_views.route('/amenities/<amenity_id>', methods=['PUT'],
                  strict_slashes=False)
 def update_amenity(amenity_id):
+    if not request.get_json():
+        return make_response(jsonify({"error": "Not a JSON"}), 400)
     amenity = storage.get(Amenity, amenity_id)
     if amenity is not None:
-        if not request.get_json():
-            return make_response(jsonify({"error": "Not a JSON"}), 400)
         for k, v in request.get_json().items():
             if k not in ['id', 'created_at', 'updated_at']:
                 setattr(amenity, k, v)
