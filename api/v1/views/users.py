@@ -2,7 +2,7 @@
 """Python flash script to create crud operations for User class"""
 
 
-from flask import Flask, jsonify, make_response, abort, request
+from flask import jsonify, make_response, abort, request
 from models import storage
 from models.user import User
 from api.v1.views import app_views
