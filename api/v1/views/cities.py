@@ -27,7 +27,7 @@ def get_city(city_id):
     if city is None:
         abort(404)
     else:
-        return jsonify(city)
+        return jsonify(city.to_dict())
 
 
 @app_views.route('/cities/<city_id>', methods=['DELETE'],
