@@ -72,6 +72,9 @@ def create_place(city_id):
 @app_views.route('/places/<place_id>', methods=['PUT'],
                  strict_slashes=False)
 def update_place(place_id):
+    """updating place"""
+    if not request.get_json():
+        return make_response(jsonify({"error": "Not a JSON"}), 400)
     place = storage.get(Place, place_id)
     if place is None:
         abort(404)
