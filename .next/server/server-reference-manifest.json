@@ -1,0 +1,84 @@
+{
+  "node": {
+    "7f5d57095abe87d6fb9f735ca6b9ab017eabc15e45": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/sign-in/[[...sign-in]]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/property/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/search/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/sign-up/[[...sign-up]]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/overview/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/messages/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/properties/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/add-property/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/inquiries/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/settings/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/notifications/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fismail%2FDownloads%2FProperty%20Management%20Marketplace%20UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f5d57095abe87d6fb9f735ca6b9ab017eabc15e45%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/property/page": "action-browser",
+        "app/search/page": "action-browser",
+        "app/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/dashboard/page": "action-browser",
+        "app/dashboard/overview/page": "action-browser",
+        "app/dashboard/messages/page": "action-browser",
+        "app/dashboard/properties/page": "action-browser",
+        "app/dashboard/add-property/page": "action-browser",
+        "app/dashboard/inquiries/page": "action-browser",
+        "app/dashboard/settings/page": "action-browser",
+        "app/dashboard/notifications/page": "action-browser"
+      },
+      "filename": "../node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
+      "exportedName": "invalidateCacheAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "7C9ZbN493ol0PfeoixBtVLazaF1KpQXwuGKPp2bObY8="
+}
